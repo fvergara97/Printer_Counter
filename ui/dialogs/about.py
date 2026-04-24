@@ -60,7 +60,7 @@ class AboutMixin:
 Versión   : 1.0
 Año       : 2026
 Creado por: Fernando A. Muñoz Vergara
-Licencia  : GNU GPL v3.0 (Libre)
+Licencia  : GNU GPL v3.0
 
 Descripción:
   Centralización y consulta de contadores de impresoras
