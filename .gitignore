@@ -1,0 +1,23 @@
+# Entornos Virtuales
+.venv/
+env/
+venv/
+
+# PyInstaller y compilaciones
+build/
+dist/
+*.spec
+
+*.zip
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Archivos propios del script
+printer_counter.log
+printers.json
+
+# Logs y backups
+etc/
+*.bak

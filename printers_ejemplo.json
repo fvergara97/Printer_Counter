@@ -1,0 +1,96 @@
+{
+    "Kyocera": {
+        "OID": {
+            "counter": "1.3.6.1.4.1.1347.43.10.1.1.12.1.1",
+            "name": "1.3.6.1.4.1.1347.43.10.1.1.12.1.1",
+            "toner_current": "1.3.6.1.2.1.43.11.1.1.9.1.1",
+            "toner_max": "1.3.6.1.2.1.43.11.1.1.8.1.1",
+            "toner_model": "1.3.6.1.2.1.43.11.1.1.6.1.1"
+        },
+        "printer": [
+            {
+                "ip": "192.168.26.222",
+                "custom_name": "OFICINA 1",
+                "modelo_asignado": "ECOSYS M3655idn"
+            },
+            {
+                "ip": "192.168.18.230",
+                "custom_name": "OFICINA 3",
+                "modelo_asignado": "ECOSYS M3655idn"
+            },
+            {
+                "ip": "192.168.10.150",
+                "custom_name": "OFICINA 4",
+                "modelo_asignado": "ECOSYS M3550idn"
+            }
+        ]
+    },
+    "TOSHIBA": {
+        "OID": {
+            "counter": "1.3.6.1.2.1.43.10.2.1.4.1.1",
+            "name": "1.3.6.1.2.1.43.10.2.1.4.1.1",
+            "toner_current": "1.3.6.1.2.1.43.11.1.1.9.1.1",
+            "toner_max": "1.3.6.1.2.1.43.11.1.1.8.1.1",
+            "toner_model": "T-3008U"
+        },
+        "printer": [
+            {
+                "ip": "192.168.1.234",
+                "custom_name": "OFICINA 2",
+                "modelo_asignado": "e-STUDIO 3508A"
+            }
+        ]
+    },
+    "_printer_order": [
+        {
+            "brand": "Kyocera",
+            "ip": "192.168.26.222"
+        },
+        {
+            "brand": "TOSHIBA",
+            "ip": "192.168.1.234"
+        },
+        {
+            "brand": "Kyocera",
+            "ip": "192.168.18.230"
+        },
+        {
+            "brand": "Kyocera",
+            "ip": "192.168.10.150"
+        }
+    ],
+    "_modelos": {
+        "Kyocera": {
+            "ECOSYS M3550idn": {
+                "oid_contador": "1.3.6.1.4.1.1347.43.10.1.1.12.1.1",
+                "oid_nombre": "1.3.6.1.4.1.1347.43.10.1.1.12.1.1",
+                "oid_toner_actual": "1.3.6.1.2.1.43.11.1.1.9.1.1",
+                "oid_toner_maximo": "1.3.6.1.2.1.43.11.1.1.8.1.1",
+                "oid_modelo_toner": "1.3.6.1.2.1.43.11.1.1.6.1.1"
+            },
+            "ECOSYS M3655idn": {
+                "oid_contador": "1.3.6.1.4.1.1347.43.10.1.1.12.1.1",
+                "oid_nombre": "1.3.6.1.4.1.1347.43.10.1.1.12.1.1",
+                "oid_toner_actual": "1.3.6.1.2.1.43.11.1.1.9.1.1",
+                "oid_toner_maximo": "1.3.6.1.2.1.43.11.1.1.8.1.1",
+                "oid_modelo_toner": "1.3.6.1.2.1.43.11.1.1.6.1.1"
+            }
+        },
+        "TOSHIBA": {
+            "e-STUDIO 3508A": {
+                "oid_contador": "1.3.6.1.2.1.43.10.2.1.4.1.1",
+                "oid_nombre": "1.3.6.1.2.1.43.10.2.1.4.1.1",
+                "oid_toner_actual": "1.3.6.1.2.1.43.11.1.1.9.1.1",
+                "oid_toner_maximo": "1.3.6.1.2.1.43.11.1.1.8.1.1",
+                "oid_modelo_toner": "",
+                "toner_model_manual": "T-3008U"
+            }
+        }
+    },
+    "_config": {
+        "community": "public",
+        "timeout": 1,
+        "retries": 1,
+        "snmp_mode_parallel": false
+    }
+}
